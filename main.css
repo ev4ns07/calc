@@ -1,0 +1,12 @@
+.main {
+    background-color: #FFC2B2;
+    height: 725px;
+    width: 382px;
+};
+
+.bottom {
+    background-color: red;
+    height: 500px;
+    width: 382px;
+    margin-bottom: 10px;
+}
