@@ -8,30 +8,39 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="main">
-        <button class="button">С</button>
-        <button class="button">%</button>
-        <button class="button">/</button>
-        <button class="button">x</button>
-        <button class="button">7</button>
-        <button class="button">8</button>
-        <button class="button">9</button>
-        <button class="button">-</button>
-        <button class="button">4</button>
-        <button class="button">5</button>
-        <button class="button">6</button>
-        <button class="button">+</button>
-        <button class="button">1</button>
-        <button class="button">2</button>
-        <button class="button">3</button>
-        <button class="button">0</button>
-        <button class="button">.</button>
-        <button class="button">del</button>
-        <button class="button">=</button>
-        <h1>dadad</h1>
-
+    <div class="head">
+        <p id="pe"></p>
     </div>
-    
+    <div class="buttoms">
+        <div class="colonna">
+            <button class="btn" onclick="insert('C')">C</button>
+            <button class="btn" onclick="insert('7')">7</button>
+            <button class="btn" onclick="insert('4')">4</button>
+            <button class="btn" onclick="insert('1')">1</button>
+            <button class="btn" onclick="insert('0')">0</button>
+        </div>
+        <div class="colonna">
+            <button class="btn" onclick="insert('%')">%</button>
+            <button class="btn" onclick="insert('8')">8</button>
+            <button class="btn" onclick="insert('5')">5</button>
+            <button class="btn" onclick="insert('2')">2</button>
+            <button class="btn" onclick="insert('.')">.</button>
+        </div>
+        <div class="colonna">
+            <button class="btn" onclick="insert('/')">/</button>
+            <button class="btn" onclick="insert('9')">9</button>
+            <button class="btn" onclick="insert('6')">6</button>
+            <button class="btn" onclick="insert('3')">3</button>
+            <button class="btn" onclick="insert('del')">del</button>
+        </div>
+        <div class="colonna">
+            <button class="btn" onclick="insert('x')">x</button>
+            <button class="btn" onclick="insert('-')">-</button>
+            <button class="btn" onclick="insert('+')">+</button>
+            <button class="ravno" onclick="insert('=')">=</button>
+        </div>
+    </div>
+
     <script src="index.js"></script>
 </body>
 </html>
